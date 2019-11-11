@@ -93,4 +93,9 @@ img{
 
 #map{
   height:400px;
+  padding: 20px;
+}
+
+.travels p{
+  text-align: center;
 }

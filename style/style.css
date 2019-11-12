@@ -110,5 +110,20 @@ img{
     max-height: 30%;
   }
 
+  body {
+    background-color: #D1DCFF;
+  }
+
+  .index div{
+    background-color: lightblue;
+    border-color: blue;
+    border-style: dotted;
+    border-width: 7px;
+    font-size: 1.2vw;
+  }
+
+  nav{
+    font-size: 1.2vw;
+  }
   
 }

@@ -99,3 +99,16 @@ img{
 .travels p{
   text-align: center;
 }
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 420px){
+
+  img{
+    max-width: 20%;
+    max-height: 30%;
+  }
+
+  
+}

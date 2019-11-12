@@ -133,5 +133,103 @@ img{
   margin-left: auto;
 }
 
+/* Media Queries */
+
+@media only screen and (min-width: 420px){
+
+  img{
+    max-width: 20%;
+    max-height: 100px;
+  }
+
+  body{
+    background-color: white;
+  }
+  .index{
+    width: 400px;
+  }
+
+  #container{
+    width: 400px;
+  }
+
+  .travels p{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #map{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav{
+    width: 400px;
+    background-color: grey;
+    border-color: grey;
+    font-size: 10px;
+  }
+
+  .internship{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .video{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (min-width: 703px){
+  img{
+    max-width: 100%;
+  }
+
+  body{
+    background-color: #D1DCFF;
+  }
+
+  nav{
+    width: 800px;
+    background-color: #6A81CC;
+    border-color: #6A81CC;
+    font-size: 15px;
+  }
+
+  .index{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .travels p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #map{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .internship{
+    width: 800px;
+  }
+
+  .video{
+    width: 800px;
+  }
 
 
+}

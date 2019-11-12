@@ -158,10 +158,18 @@ img{
     background-color: #425180;
     color: white;
   }
+
+  .index p{
+    color: black;
+  }
+
+  .index h1{
+    color:  #303030;
+  }
 }
 
 @media only screen and (min-width: 703px){
-  
+
   img{
     max-width: 100%;
   }
@@ -184,4 +192,12 @@ img{
     background-color: #84A1FF;
   }
 
+  .index p{
+    color:#696E80;
+  }
+
+  .index h1{
+    color: #425180 ;
+    text-align: center;
+  }
 }

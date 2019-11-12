@@ -1,8 +1,20 @@
 body {
   padding-left: 2em;
   padding-right: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Jomolhari', serif;
   background-color: #D1DCFF;
+}
+
+#container{
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.index{
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ul {
@@ -24,6 +36,9 @@ nav{
   border: 2px solid #425180;
   display: block;
   color: white;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav ul{
@@ -71,6 +86,12 @@ img{
   color:#696E80;
 }
 
+.internship{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .internship ul{
   color:white;
@@ -86,7 +107,13 @@ img{
   color:#425180 ;
   text-align: center;
 }
-	
+
+.video{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .video p{
   color: #425180;
 }
@@ -94,52 +121,17 @@ img{
 #map{
   height:400px;
   padding: 20px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .travels p{
   text-align: center;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
-/* Media Queries */
 
-@media only screen and (min-width: 420px){
-
-  img{
-    max-width: 20%;
-    max-height: 20%;
-  }
-
-  body {
-    background-color: #D1DCFF;
-  }
-
-  .index div{
-    background-color: lightblue;
-    border-color: blue;
-    border-style: dotted;
-    border-width: 7px;
-    font-size: 1.2vw;
-  }
-
-  nav{
-    font-size: 1.2vw;
-  }
-  
-}
-
-@media only screen and (min-width: 600px){
-
-  body{
-    background-color: lightblue;
-  }
-
-  nav{
-    font-size: 1.2vw;
-  }
-
-  p{
-    font-size: 1vw;
-  }
-
-}

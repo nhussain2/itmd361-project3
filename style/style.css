@@ -137,11 +137,6 @@ img{
 
 @media only screen and (min-width: 420px){
 
-  img{
-    max-width: 20%;
-    max-height: 100px;
-  }
-
   .index{
     width: 400px;
     background-color: white;
@@ -169,11 +164,6 @@ img{
 }
 
 @media only screen and (min-width: 703px){
-
-  img{
-    max-width: 100%;
-    max-height: 100%;
-  }
 
   .index nav{
     width: 800px;

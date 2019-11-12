@@ -33,7 +33,7 @@ h2 {
 nav{
   background-color: #6A81CC;
   text-align: center;
-  border: 2px solid #425180;
+  border: none;
   display: block;
   color: white;
   width: 800px;

@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
   <script src='js/script.js'></script>
   <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap" async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   
 </head>
 
@@ -26,30 +27,44 @@
 
   <p> In the summer of 2017, from months July to August, I joined the TEXT team in Karachi to help
   in designing their new office. This office served to be Pakistan's first technology innovation center.
-  The project was an old factory conversation project in Korangi Industrial Area. During this time, I was able to: 
+  The project was an old factory conversation project in Korangi Industrial Area. Here are some pictures. 
   </p>
-	
-  <ul>
-    <li>Design a to-scale 3D Sketchup model for the new office building</li>
-    <li>Propose alterations to the building's elevation design</li>
-    <li>Help design the window sections of the building</li>
-    <li>Create floor plans and incorporated electricals and HVAC systems to both floorplans and 3D model</li>
-    <li>Supervise the construction site, go for site inspections and coordinate materials with engineers, contractors and plumbers</li>
-    <li>Learn how to use AutoCAD in a professional work environment</li>
-    <li>Sketch innovative window designs to improve elevation</li>
-  </ul>
 	
   <h3>Images:</h3>
 	
-  <div class="slideshow">
-    <div><img src="images/internship1.jpg" alt="internship1"/></div>
-    <div><img src="images/internship3.png" alt="internship3"/></div>
-    <div><img src="images/internship4.png" alt="internship4"/></div>
-    <div><img src="images/internship5.png" alt="internship5"/></div>
-    <div><img src="images/internship6.jpg" alt="internship6"/></div>
-    <div><img src="images/internship7.jpg" alt="internship7"/></div>
+  <div class="slider">
+    <figure>
+      <img src="images/internship1.jpg" alt="internship1"/>
+      <img src="images/internship3.png" alt="internship3"/>
+      <img src="images/internship4.png" alt="internship4"/>
+      <img src="images/internship5.png" alt="internship5"/>
+      <img src="images/internship6.jpg" alt="internship6"/>
+      <img src="images/internship7.jpg" alt="internship7"/>
+    </figure>
 	</div>
-	
+
+  <button class="btn-prev"><</button>
+  <button class="btn-next">></button>
+
+  <script>
+  $(document).ready(function(){
+    var x = 0;
+    // for next slide
+    $('.btn-next').click(function(){
+    
+        x= (x<=300)?(x+100):0;
+      $('figure').css('left', -x+'%');
+    });
+     // for prev slide
+     $('.btn-prev').click(function(){
+    
+        x= (x>=100)?(x-100):400;
+      $('figure').css('left', -x+'%');
+    });
+  });
+</script>
+
+
 </body>
 
 </html>
